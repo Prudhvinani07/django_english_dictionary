@@ -1,0 +1,1404 @@
+2023-05-08 14:36:23:wordhoard.antonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:36:23:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 385, in _query_wordhippo
+    self._update_cache(part_of_speech_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 138, in _update_cache
+    caching.insert_word_cache_antonyms(self._word, pos_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 48, in insert_word_cache_antonyms
+    temporary_dict_antonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:36:23:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:36:23:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 14:36:23:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hello
+2023-05-08 14:36:23:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:36:23:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:36:23:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 492, in _query_synonym_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:36:23:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:36:23:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:36:23:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:36:23:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 640, in _query_wordnet
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:36:24:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:36:24:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 14:36:24:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hello
+2023-05-08 14:36:24:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:36:24:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:36:24:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 331, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:36:24:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:36:24:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 14:36:24:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hello
+2023-05-08 14:36:24:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:36:24:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:36:24:wordhoard.dictionary:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 487, in _query_synonym_com
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2023-05-08 14:36:24:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:36:24:wordhoard.dictionary:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 407, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2023-05-08 14:36:25:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:36:25:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 14:36:25:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hello
+2023-05-08 14:36:25:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:36:25:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:36:25:wordhoard.dictionary:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 324, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2023-05-08 14:42:43:wordhoard.antonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:42:43:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 385, in _query_wordhippo
+    self._update_cache(part_of_speech_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 138, in _update_cache
+    caching.insert_word_cache_antonyms(self._word, pos_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 48, in insert_word_cache_antonyms
+    temporary_dict_antonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:42:44:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:42:44:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:42:44:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:42:44:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 14:42:44:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hello
+2023-05-08 14:42:44:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:42:44:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:42:44:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 492, in _query_synonym_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:42:44:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:42:44:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 640, in _query_wordnet
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:42:44:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:42:44:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 14:42:44:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hello
+2023-05-08 14:42:44:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:42:44:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:42:44:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 331, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:42:44:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:42:44:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 14:42:44:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hello
+2023-05-08 14:42:44:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:42:45:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:42:45:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:42:45:wordhoard.dictionary:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 407, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2023-05-08 14:42:45:wordhoard.dictionary:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 487, in _query_synonym_com
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2023-05-08 14:42:45:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:42:45:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 14:42:45:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hello
+2023-05-08 14:42:45:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:42:45:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:42:45:wordhoard.dictionary:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 324, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2023-05-08 14:53:19:wordhoard.antonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:53:19:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 385, in _query_wordhippo
+    self._update_cache(part_of_speech_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 138, in _update_cache
+    caching.insert_word_cache_antonyms(self._word, pos_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 48, in insert_word_cache_antonyms
+    temporary_dict_antonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:53:19:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:53:19:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 14:53:19:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hey
+2023-05-08 14:53:19:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:53:19:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:53:19:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:53:20:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:53:20:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-08 14:53:20:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-08 14:53:20:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/hey
+2023-05-08 14:53:20:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:53:20:wordhoard.synonyms:INFO: Synonym.com had no synonym reference for the word hey
+2023-05-08 14:53:20:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:53:20:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 14:53:20:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hey
+2023-05-08 14:53:20:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:53:20:wordhoard.synonyms:INFO: Wordnet had no synonym reference for the word hey
+2023-05-08 14:53:20:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:53:20:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 14:53:20:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hey
+2023-05-08 14:53:20:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:53:20:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:53:20:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-08 14:53:20:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-08 14:53:20:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/hey
+2023-05-08 14:53:20:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:53:20:wordhoard.dictionary:INFO: Synonym.com had no definition reference for the word hey
+2023-05-08 14:53:20:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:53:20:wordhoard.dictionary:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 407, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2023-05-08 14:53:21:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:53:21:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 14:53:21:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hey
+2023-05-08 14:53:21:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:53:21:wordhoard.dictionary:ERROR: Collins Dictionary had no definition reference for the word hey
+2023-05-08 14:54:31:wordhoard.antonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:54:31:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 385, in _query_wordhippo
+    self._update_cache(part_of_speech_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 138, in _update_cache
+    caching.insert_word_cache_antonyms(self._word, pos_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 48, in insert_word_cache_antonyms
+    temporary_dict_antonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:54:31:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:54:31:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 14:54:31:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hey
+2023-05-08 14:54:31:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:54:31:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:54:31:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:54:32:wordhoard.synonyms:INFO: Wordnet had no synonym reference for the word hey
+2023-05-08 14:54:32:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:54:32:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 14:54:32:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hey
+2023-05-08 14:54:32:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:54:33:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:54:33:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-08 14:54:33:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-08 14:54:33:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/hey
+2023-05-08 14:54:33:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:54:33:wordhoard.synonyms:INFO: Synonym.com had no synonym reference for the word hey
+2023-05-08 14:54:33:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:54:33:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 14:54:33:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hey
+2023-05-08 14:54:33:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:54:33:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:54:33:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-08 14:54:33:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-08 14:54:33:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/hey
+2023-05-08 14:54:33:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:54:33:wordhoard.dictionary:INFO: Synonym.com had no definition reference for the word hey
+2023-05-08 14:54:33:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:54:33:wordhoard.dictionary:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 407, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2023-05-08 14:54:34:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:54:34:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 14:54:34:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hey
+2023-05-08 14:54:34:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:54:34:wordhoard.dictionary:ERROR: Collins Dictionary had no definition reference for the word hey
+2023-05-08 14:55:27:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word water
+2023-05-08 14:55:28:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:55:28:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 14:55:28:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-08 14:55:28:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:55:28:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:55:28:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:55:29:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:55:29:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 14:55:29:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-08 14:55:29:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:55:30:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:55:30:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 14:55:30:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-08 14:55:30:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:55:31:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:55:31:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 14:55:31:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-08 14:55:31:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:56:59:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word water
+2023-05-08 14:57:00:wordhoard.antonyms:ERROR: A TypeError occurred in the following code segment:
+2023-05-08 14:57:00:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 389, in _query_wordhippo
+    for href_link in table_row.find('a', href=True):
+
+2023-05-08 14:57:00:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:57:00:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 14:57:00:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-08 14:57:00:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:57:00:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 14:57:00:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 14:57:01:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 14:57:01:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 14:57:01:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-08 14:57:01:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:39:27:wordhoard.antonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:39:27:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 385, in _query_wordhippo
+    self._update_cache(part_of_speech_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 138, in _update_cache
+    caching.insert_word_cache_antonyms(self._word, pos_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 48, in insert_word_cache_antonyms
+    temporary_dict_antonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 15:39:27:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:39:27:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 15:39:27:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hello
+2023-05-08 15:39:27:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:39:27:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:39:27:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 15:39:27:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:39:27:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 492, in _query_synonym_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 15:39:28:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:39:28:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 640, in _query_wordnet
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 15:39:28:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:39:28:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 15:39:28:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hello
+2023-05-08 15:39:28:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:39:28:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:39:28:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 331, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 15:39:38:wordhoard.antonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:39:38:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 385, in _query_wordhippo
+    self._update_cache(part_of_speech_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 138, in _update_cache
+    caching.insert_word_cache_antonyms(self._word, pos_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 48, in insert_word_cache_antonyms
+    temporary_dict_antonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 15:39:38:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:39:38:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 15:39:38:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/bye
+2023-05-08 15:39:38:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:39:38:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:39:38:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 492, in _query_synonym_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 15:39:39:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:39:39:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 640, in _query_wordnet
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 15:39:40:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:39:40:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 15:39:40:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/bye
+2023-05-08 15:39:40:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:39:40:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:39:40:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 331, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 15:39:45:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word water
+2023-05-08 15:39:46:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:39:46:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 15:39:46:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-08 15:39:46:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:39:47:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:39:47:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 571, in _query_thesaurus_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 15:39:47:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:39:47:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 492, in _query_synonym_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 15:39:47:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:39:47:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 640, in _query_wordnet
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 15:39:48:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:39:48:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 15:39:48:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-08 15:39:48:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:39:48:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:39:48:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 331, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 15:44:57:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:44:57:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 15:44:57:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/ice
+2023-05-08 15:44:57:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:44:58:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:44:58:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 15:44:58:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/ice
+2023-05-08 15:44:58:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:52:08:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word pot
+2023-05-08 15:52:09:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:52:09:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 15:52:09:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/pot
+2023-05-08 15:52:09:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:52:10:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:52:10:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 15:52:11:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:52:11:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 15:52:11:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/pot
+2023-05-08 15:52:11:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:52:30:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word rat
+2023-05-08 15:52:31:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:52:31:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 15:52:31:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/rat
+2023-05-08 15:52:31:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:52:32:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:52:32:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 15:52:32:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/rat
+2023-05-08 15:52:32:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:52:50:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:52:50:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 15:52:50:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/pen
+2023-05-08 15:52:50:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:52:50:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:52:50:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 15:52:51:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:52:51:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 15:52:51:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/pen
+2023-05-08 15:52:51:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 15:52:51:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 15:52:51:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 331, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 16:04:54:wordhoard.antonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 16:04:54:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 385, in _query_wordhippo
+    self._update_cache(part_of_speech_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 138, in _update_cache
+    caching.insert_word_cache_antonyms(self._word, pos_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 48, in insert_word_cache_antonyms
+    temporary_dict_antonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 16:04:54:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 16:04:54:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 16:04:54:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hello
+2023-05-08 16:04:54:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 16:04:54:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 16:04:54:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 16:04:54:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 16:04:54:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 492, in _query_synonym_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 16:04:55:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 16:04:55:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 640, in _query_wordnet
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 16:04:55:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 16:04:55:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 16:04:55:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hello
+2023-05-08 16:04:55:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 16:04:55:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 16:04:55:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 331, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 16:10:06:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word water
+2023-05-08 16:10:07:wordhoard.antonyms:ERROR: A TypeError occurred in the following code segment:
+2023-05-08 16:10:07:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 389, in _query_wordhippo
+    for href_link in table_row.find('a', href=True):
+
+2023-05-08 16:10:07:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 16:10:07:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 16:10:07:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-08 16:10:07:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 16:10:07:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 16:10:07:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 16:10:08:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 16:10:08:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 16:10:08:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-08 16:10:08:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 16:11:10:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word water
+2023-05-08 16:11:11:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 16:11:11:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 16:11:11:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-08 16:11:11:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 16:11:11:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 16:11:11:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 16:11:12:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 16:11:12:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 16:11:12:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-08 16:11:12:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 17:37:26:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word water
+2023-05-08 17:37:27:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 17:37:27:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 17:37:27:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-08 17:37:27:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 17:37:27:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 17:37:27:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 17:37:28:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 17:37:28:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 17:37:28:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-08 17:37:28:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 17:39:54:wordhoard.antonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 17:39:54:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 385, in _query_wordhippo
+    self._update_cache(part_of_speech_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 138, in _update_cache
+    caching.insert_word_cache_antonyms(self._word, pos_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 48, in insert_word_cache_antonyms
+    temporary_dict_antonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 17:39:54:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 17:39:54:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 17:39:54:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hey
+2023-05-08 17:39:54:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 17:39:54:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-08 17:39:54:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-08 17:39:55:wordhoard.synonyms:INFO: Wordnet had no synonym reference for the word hey
+2023-05-08 17:39:55:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 17:39:55:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-08 17:39:55:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 17:39:55:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 17:39:55:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/hey
+2023-05-08 17:39:55:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 17:39:55:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-08 17:39:55:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/hey
+2023-05-08 17:39:55:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 17:39:55:wordhoard.synonyms:INFO: Synonym.com had no synonym reference for the word hey
+2023-05-08 17:41:43:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word lamp
+2023-05-08 17:41:44:wordhoard.antonyms:INFO: Wordhippo.com had no antonym reference for the word lamp
+2023-05-08 17:41:44:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 17:41:44:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-08 17:41:44:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/lamp
+2023-05-08 17:41:44:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-08 17:41:45:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-08 17:41:45:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-08 17:41:45:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/lamp
+2023-05-08 17:41:45:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-09 05:39:11:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word water
+2023-05-09 05:39:12:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 05:39:12:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-09 05:39:12:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-09 05:39:12:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 05:39:12:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-09 05:39:12:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-09 05:39:13:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-09 05:39:13:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-09 05:39:13:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-09 05:39:13:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-09 05:40:29:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 05:40:29:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-09 05:40:29:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/fuck
+2023-05-09 05:40:29:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 05:40:29:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 05:40:29:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-09 05:40:29:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-09 05:40:29:wordhoard.utilities.request_html:INFO: Requested URL: https://www.merriam-webster.com/thesaurus/fuck
+2023-05-09 05:40:29:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 05:40:29:wordhoard.synonyms:INFO: Merriam-webster.com had no synonym reference for the word fuck
+2023-05-09 05:40:29:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-09 05:40:29:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 640, in _query_wordnet
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-09 05:40:30:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-09 05:40:30:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 492, in _query_synonym_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-09 05:40:30:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-09 05:40:30:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-09 05:40:30:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/fuck
+2023-05-09 05:40:30:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-09 05:40:57:wordhoard.antonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-09 05:40:57:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 385, in _query_wordhippo
+    self._update_cache(part_of_speech_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 138, in _update_cache
+    caching.insert_word_cache_antonyms(self._word, pos_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 48, in insert_word_cache_antonyms
+    temporary_dict_antonyms[word][pos_category] += deduplicated_values
+
+2023-05-09 05:40:57:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 05:40:57:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-09 05:40:57:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/home
+2023-05-09 05:40:57:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 05:40:57:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-09 05:40:57:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 571, in _query_thesaurus_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-09 05:40:58:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-09 05:40:58:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-09 05:40:58:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/home
+2023-05-09 05:40:58:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-09 09:26:42:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word water
+2023-05-09 09:26:43:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 09:26:43:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-09 09:26:43:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-09 09:26:43:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 09:26:43:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-09 09:26:43:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-09 09:26:44:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-09 09:26:44:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-09 09:26:44:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-09 09:26:44:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-09 09:31:22:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 09:31:22:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-09 09:31:22:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-09 09:31:22:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/sigma
+2023-05-09 09:31:22:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 09:31:22:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word sigma
+2023-05-09 09:31:23:wordhoard.antonyms:INFO: Wordhippo.com had no antonym reference for the word sigma
+2023-05-09 09:31:23:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 09:31:23:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-09 09:31:23:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-09 09:31:23:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/sigma
+2023-05-09 09:31:23:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 09:31:23:wordhoard.synonyms:INFO: Thesaurus.com had no synonym reference for the word sigma
+2023-05-09 09:31:23:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 09:31:23:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-09 09:31:23:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/sigma
+2023-05-09 09:31:23:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 09:31:23:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 09:31:23:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-09 09:31:23:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-09 09:31:23:wordhoard.utilities.request_html:INFO: Requested URL: https://www.merriam-webster.com/thesaurus/sigma
+2023-05-09 09:31:23:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-09 09:31:23:wordhoard.synonyms:INFO: Merriam-webster.com had no synonym reference for the word sigma
+2023-05-09 09:31:24:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-09 09:31:24:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-09 09:31:24:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/sigma
+2023-05-09 09:31:24:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:34:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:34:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:14:34:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:14:34:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/jhonny
+2023-05-11 13:14:34:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:34:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word jhonny
+2023-05-11 13:14:35:wordhoard.antonyms:INFO: Wordhippo.com had no antonym reference for the word jhonny
+2023-05-11 13:14:35:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:35:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:14:35:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:14:35:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/jhonny
+2023-05-11 13:14:35:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:35:wordhoard.synonyms:INFO: Thesaurus.com had no synonym reference for the word jhonny
+2023-05-11 13:14:35:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:35:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-11 13:14:35:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/jhonny
+2023-05-11 13:14:35:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:35:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:35:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:14:35:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:14:35:wordhoard.utilities.request_html:INFO: Requested URL: https://www.merriam-webster.com/thesaurus/jhonny
+2023-05-11 13:14:35:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:35:wordhoard.synonyms:INFO: Merriam-webster.com had no synonym reference for the word jhonny
+2023-05-11 13:14:36:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:36:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:14:36:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:14:36:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/jhonny
+2023-05-11 13:14:36:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:36:wordhoard.synonyms:INFO: Synonym.com had no synonym reference for the word jhonny
+2023-05-11 13:14:36:wordhoard.synonyms:INFO: Wordnet had no synonym reference for the word jhonny
+2023-05-11 13:14:37:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:37:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-11 13:14:37:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/jhonny
+2023-05-11 13:14:37:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:46:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:46:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:14:46:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:14:46:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/prudhvi
+2023-05-11 13:14:46:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:46:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word prudhvi
+2023-05-11 13:14:47:wordhoard.antonyms:INFO: Wordhippo.com had no antonym reference for the word prudhvi
+2023-05-11 13:14:47:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:47:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-11 13:14:47:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/prudhvi
+2023-05-11 13:14:47:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:47:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:47:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:14:47:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:14:47:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/prudhvi
+2023-05-11 13:14:47:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:47:wordhoard.synonyms:INFO: Thesaurus.com had no synonym reference for the word prudhvi
+2023-05-11 13:14:47:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:47:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:14:47:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:14:47:wordhoard.utilities.request_html:INFO: Requested URL: https://www.merriam-webster.com/thesaurus/prudhvi
+2023-05-11 13:14:47:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:47:wordhoard.synonyms:INFO: Merriam-webster.com had no synonym reference for the word prudhvi
+2023-05-11 13:14:48:wordhoard.synonyms:INFO: Wordnet had no synonym reference for the word prudhvi
+2023-05-11 13:14:48:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:48:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-11 13:14:48:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/prudhvi
+2023-05-11 13:14:48:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:48:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:48:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:14:48:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:14:48:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/prudhvi
+2023-05-11 13:14:48:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:48:wordhoard.synonyms:INFO: Synonym.com had no synonym reference for the word prudhvi
+2023-05-11 13:14:55:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word phone
+2023-05-11 13:14:56:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:56:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-11 13:14:56:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/phone
+2023-05-11 13:14:56:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:57:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:14:57:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 640, in _query_wordnet
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:14:57:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:57:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-11 13:14:57:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/phone
+2023-05-11 13:14:57:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:14:57:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:14:57:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 331, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:14:58:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:14:58:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 492, in _query_synonym_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:15:47:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word jar
+2023-05-11 13:15:48:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:15:48:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-11 13:15:48:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/jar
+2023-05-11 13:15:48:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:15:50:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:15:50:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-11 13:15:50:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/jar
+2023-05-11 13:15:50:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:02:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:02:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:20:02:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:20:02:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/They%20killed%20him
+2023-05-11 13:20:02:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:02:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word They killed him
+2023-05-11 13:20:03:wordhoard.antonyms:INFO: Wordhippo.com had no antonym reference for the word They killed him
+2023-05-11 13:20:03:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:03:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-11 13:20:03:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/They%20killed%20him
+2023-05-11 13:20:03:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:03:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:03:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:20:03:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:20:03:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/They%20killed%20him
+2023-05-11 13:20:03:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:03:wordhoard.synonyms:INFO: Thesaurus.com had no synonym reference for the word They killed him
+2023-05-11 13:20:03:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:03:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:20:03:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:20:03:wordhoard.utilities.request_html:INFO: Requested URL: https://www.merriam-webster.com/thesaurus/They%20killed%20him
+2023-05-11 13:20:03:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:03:wordhoard.synonyms:INFO: Merriam-webster.com had no synonym reference for the word They killed him
+2023-05-11 13:20:04:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:04:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:20:04:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:20:04:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/They%20killed%20him
+2023-05-11 13:20:04:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:04:wordhoard.synonyms:INFO: Synonym.com had no synonym reference for the word They killed him
+2023-05-11 13:20:04:wordhoard.synonyms:INFO: Wordnet had no synonym reference for the word They killed him
+2023-05-11 13:20:04:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:04:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-11 13:20:04:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/They killed him
+2023-05-11 13:20:04:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:11:wordhoard.antonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:20:11:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 385, in _query_wordhippo
+    self._update_cache(part_of_speech_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 138, in _update_cache
+    caching.insert_word_cache_antonyms(self._word, pos_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 48, in insert_word_cache_antonyms
+    temporary_dict_antonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:20:11:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:11:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-11 13:20:11:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/killed
+2023-05-11 13:20:11:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:12:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:20:12:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:20:12:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:12:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:20:12:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:20:12:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/killed
+2023-05-11 13:20:12:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:12:wordhoard.synonyms:INFO: Synonym.com had no synonym reference for the word killed
+2023-05-11 13:20:13:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:13:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-11 13:20:13:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/killed
+2023-05-11 13:20:13:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:13:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:20:13:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 331, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:20:27:wordhoard.antonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:20:27:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 385, in _query_wordhippo
+    self._update_cache(part_of_speech_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 138, in _update_cache
+    caching.insert_word_cache_antonyms(self._word, pos_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 48, in insert_word_cache_antonyms
+    temporary_dict_antonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:20:27:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:27:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-11 13:20:27:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/depressed
+2023-05-11 13:20:27:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:27:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:20:27:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:20:28:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:20:28:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 492, in _query_synonym_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:20:28:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:28:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-11 13:20:28:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/depressed
+2023-05-11 13:20:28:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:28:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:20:28:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 331, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:20:34:wordhoard.antonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:20:34:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 385, in _query_wordhippo
+    self._update_cache(part_of_speech_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 138, in _update_cache
+    caching.insert_word_cache_antonyms(self._word, pos_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 48, in insert_word_cache_antonyms
+    temporary_dict_antonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:20:34:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:34:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-11 13:20:34:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/happy
+2023-05-11 13:20:34:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:35:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:35:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass started.
+2023-05-11 13:20:35:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/happy
+2023-05-11 13:20:35:wordhoard.utilities.cloudflare_bypass:INFO: Status Code: 521
+2023-05-11 13:20:35:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:35:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:20:35:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 492, in _query_synonym_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:20:35:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:20:35:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:20:40:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:40:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-11 13:20:40:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/happy
+2023-05-11 13:20:40:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:20:40:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2023-05-11 13:20:40:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 316, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2023-05-11 13:21:07:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:07:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:21:07:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:21:07:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/nani
+2023-05-11 13:21:07:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:07:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word nani
+2023-05-11 13:21:08:wordhoard.antonyms:INFO: Wordhippo.com had no antonym reference for the word nani
+2023-05-11 13:21:08:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:08:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-11 13:21:08:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/nani
+2023-05-11 13:21:08:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:08:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:08:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:21:08:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:21:08:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/nani
+2023-05-11 13:21:08:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:08:wordhoard.synonyms:INFO: Thesaurus.com had no synonym reference for the word nani
+2023-05-11 13:21:08:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:08:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:21:08:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:21:08:wordhoard.utilities.request_html:INFO: Requested URL: https://www.merriam-webster.com/thesaurus/nani
+2023-05-11 13:21:08:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:08:wordhoard.synonyms:INFO: Merriam-webster.com had no synonym reference for the word nani
+2023-05-11 13:21:09:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:09:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:21:09:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:21:09:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/nani
+2023-05-11 13:21:09:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:09:wordhoard.synonyms:INFO: Synonym.com had no synonym reference for the word nani
+2023-05-11 13:21:09:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:09:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-11 13:21:09:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/nani
+2023-05-11 13:21:09:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:29:wordhoard.antonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:21:29:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 385, in _query_wordhippo
+    self._update_cache(part_of_speech_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 138, in _update_cache
+    caching.insert_word_cache_antonyms(self._word, pos_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 48, in insert_word_cache_antonyms
+    temporary_dict_antonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:21:29:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:29:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-11 13:21:29:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/raw
+2023-05-11 13:21:29:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:30:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:21:30:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:21:30:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:21:30:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 640, in _query_wordnet
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:21:30:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:30:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-11 13:21:30:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/raw
+2023-05-11 13:21:30:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:21:30:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:21:30:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 331, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:21:30:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-11 13:21:30:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 492, in _query_synonym_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-11 13:22:01:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:22:01:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:22:01:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:22:01:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/mallareddy
+2023-05-11 13:22:01:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:22:01:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word mallareddy
+2023-05-11 13:22:02:wordhoard.antonyms:INFO: Wordhippo.com had no antonym reference for the word mallareddy
+2023-05-11 13:22:02:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:22:02:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-11 13:22:02:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/mallareddy
+2023-05-11 13:22:02:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:22:02:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:22:02:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:22:02:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:22:02:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/mallareddy
+2023-05-11 13:22:02:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:22:02:wordhoard.synonyms:INFO: Thesaurus.com had no synonym reference for the word mallareddy
+2023-05-11 13:22:02:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:22:02:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:22:02:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:22:02:wordhoard.utilities.request_html:INFO: Requested URL: https://www.merriam-webster.com/thesaurus/mallareddy
+2023-05-11 13:22:02:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:22:02:wordhoard.synonyms:INFO: Merriam-webster.com had no synonym reference for the word mallareddy
+2023-05-11 13:22:03:wordhoard.synonyms:INFO: Wordnet had no synonym reference for the word mallareddy
+2023-05-11 13:22:03:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:22:03:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-11 13:22:03:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/mallareddy
+2023-05-11 13:22:03:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:22:03:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:22:03:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-11 13:22:03:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-11 13:22:03:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/mallareddy
+2023-05-11 13:22:03:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-11 13:22:03:wordhoard.synonyms:INFO: Synonym.com had no synonym reference for the word mallareddy
+2023-05-12 04:57:28:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word water
+2023-05-12 04:57:29:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:57:29:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-12 04:57:29:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-12 04:57:29:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:57:30:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-12 04:57:30:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-12 04:57:30:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:57:30:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-12 04:57:30:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-12 04:57:30:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:26:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:26:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-12 04:58:26:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-12 04:58:26:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/woter
+2023-05-12 04:58:26:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:26:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word woter
+2023-05-12 04:58:27:wordhoard.antonyms:INFO: Wordhippo.com had no antonym reference for the word woter
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:27:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/woter
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:27:wordhoard.synonyms:INFO: Thesaurus.com had no synonym reference for the word woter
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/woter
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:27:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: Requested URL: https://www.merriam-webster.com/thesaurus/woter
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:27:wordhoard.synonyms:INFO: Merriam-webster.com had no synonym reference for the word woter
+2023-05-12 04:58:27:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:27:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-12 04:58:27:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/woter
+2023-05-12 04:58:27:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:27:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/woter
+2023-05-12 04:58:27:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:27:wordhoard.synonyms:INFO: Synonym.com had no synonym reference for the word woter
+2023-05-12 04:58:27:wordhoard.synonyms:INFO: Wordnet had no synonym reference for the word woter
+2023-05-12 04:58:36:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:36:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-12 04:58:36:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-12 04:58:36:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/watter
+2023-05-12 04:58:36:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:36:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word watter
+2023-05-12 04:58:36:wordhoard.antonyms:INFO: Wordhippo.com had no antonym reference for the word watter
+2023-05-12 04:58:36:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:36:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-12 04:58:36:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/watter
+2023-05-12 04:58:36:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:36:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:36:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-12 04:58:36:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-12 04:58:36:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/watter
+2023-05-12 04:58:36:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:36:wordhoard.synonyms:INFO: Thesaurus.com had no synonym reference for the word watter
+2023-05-12 04:58:37:wordhoard.synonyms:INFO: Wordnet had no synonym reference for the word watter
+2023-05-12 04:58:37:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:37:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-12 04:58:37:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-12 04:58:37:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/watter
+2023-05-12 04:58:37:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:37:wordhoard.synonyms:INFO: Synonym.com had no synonym reference for the word watter
+2023-05-12 04:58:37:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:37:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-12 04:58:37:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/watter
+2023-05-12 04:58:37:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:37:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:37:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-12 04:58:37:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-12 04:58:37:wordhoard.utilities.request_html:INFO: Requested URL: https://www.merriam-webster.com/thesaurus/watter
+2023-05-12 04:58:37:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 04:58:37:wordhoard.synonyms:INFO: Merriam-webster.com had no synonym reference for the word watter
+2023-05-12 05:07:33:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:07:33:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-12 05:07:33:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-12 05:07:33:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/google
+2023-05-12 05:07:33:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:07:33:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word google
+2023-05-12 05:07:34:wordhoard.antonyms:ERROR: A TypeError occurred in the following code segment:
+2023-05-12 05:07:34:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 389, in _query_wordhippo
+    for href_link in table_row.find('a', href=True):
+
+2023-05-12 05:07:34:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:07:34:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-12 05:07:34:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-12 05:07:34:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/google
+2023-05-12 05:07:34:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:07:34:wordhoard.synonyms:INFO: Thesaurus.com had no synonym reference for the word google
+2023-05-12 05:07:34:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:07:34:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-12 05:07:34:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/google
+2023-05-12 05:07:34:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:07:34:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:07:34:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2023-05-12 05:07:34:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2023-05-12 05:07:34:wordhoard.utilities.request_html:INFO: Requested URL: https://www.merriam-webster.com/thesaurus/google
+2023-05-12 05:07:34:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:07:34:wordhoard.synonyms:INFO: Merriam-webster.com had no synonym reference for the word google
+2023-05-12 05:07:35:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-12 05:07:35:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 640, in _query_wordnet
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-12 05:07:35:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:07:35:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-12 05:07:35:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/google
+2023-05-12 05:07:35:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:08:05:wordhoard.antonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-12 05:08:05:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 392, in _query_wordhippo
+    self._update_cache(part_of_speech_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 138, in _update_cache
+    caching.insert_word_cache_antonyms(self._word, pos_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 48, in insert_word_cache_antonyms
+    temporary_dict_antonyms[word][pos_category] += deduplicated_values
+
+2023-05-12 05:08:05:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:08:05:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-12 05:08:05:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/beautiful
+2023-05-12 05:08:05:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:08:05:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-12 05:08:05:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-12 05:08:06:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-12 05:08:06:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 492, in _query_synonym_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-12 05:08:06:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:08:06:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-12 05:08:06:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/beautiful
+2023-05-12 05:08:06:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:08:06:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-12 05:08:06:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 331, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-12 05:24:35:wordhoard.antonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-12 05:24:35:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 385, in _query_wordhippo
+    self._update_cache(part_of_speech_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 138, in _update_cache
+    caching.insert_word_cache_antonyms(self._word, pos_category, antonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 48, in insert_word_cache_antonyms
+    temporary_dict_antonyms[word][pos_category] += deduplicated_values
+
+2023-05-12 05:24:35:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:24:35:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-12 05:24:35:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/beautiful
+2023-05-12 05:24:35:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:24:35:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-12 05:24:35:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 492, in _query_synonym_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-12 05:24:35:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-12 05:24:35:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-12 05:24:37:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:24:37:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-12 05:24:37:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/beautiful
+2023-05-12 05:24:37:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-12 05:24:37:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-12 05:24:37:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 331, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-14 07:52:38:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word water
+2023-05-14 07:52:39:wordhoard.antonyms:ERROR: A TypeError occurred in the following code segment:
+2023-05-14 07:52:39:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 389, in _query_wordhippo
+    for href_link in table_row.find('a', href=True):
+
+2023-05-14 07:52:39:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-14 07:52:39:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-14 07:52:39:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-14 07:52:39:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-14 07:52:40:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-14 07:52:40:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-14 07:52:40:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-14 07:52:40:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-14 07:52:40:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-14 07:52:40:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-14 09:11:34:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word water
+2023-05-14 09:11:35:wordhoard.antonyms:ERROR: A TypeError occurred in the following code segment:
+2023-05-14 09:11:35:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 389, in _query_wordhippo
+    for href_link in table_row.find('a', href=True):
+
+2023-05-14 09:11:35:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-14 09:11:35:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-14 09:11:35:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-14 09:11:35:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-14 09:11:36:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-14 09:11:36:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-14 09:11:36:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-14 09:11:36:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-14 09:11:36:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-14 09:11:36:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-26 19:20:18:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word water
+2023-05-26 19:20:19:wordhoard.antonyms:ERROR: A TypeError occurred in the following code segment:
+2023-05-26 19:20:19:wordhoard.antonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/antonyms.py", line 389, in _query_wordhippo
+    for href_link in table_row.find('a', href=True):
+
+2023-05-26 19:20:19:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-26 19:20:19:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2023-05-26 19:20:19:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-26 19:20:19:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2023-05-26 19:20:19:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2023-05-26 19:20:19:wordhoard.synonyms:ERROR:   File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 414, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/synonyms.py", line 134, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2023-05-26 19:20:20:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2023-05-26 19:20:20:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2023-05-26 19:20:20:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/water
+2023-05-26 19:20:20:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
